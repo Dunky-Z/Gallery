@@ -1,4 +1,6 @@
 ## Html+CSS+JS综合实例-商城展示
+![20200417170553](https://raw.githubusercontent.com/Dunky-Z/MarkdownImageBed/master/img/20200417170553.png)
+
 
 ### 页眉区域的制作
 - 添加logo并调整位置
