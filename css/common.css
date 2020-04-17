@@ -173,3 +173,23 @@ a {
     background-color: #c5c5c5;
     padding: 3px 9px;
 }
+
+
+/*页脚区设置*/
+
+.footer {
+    width: 1200px;
+    height: 100px;
+    margin: 60px auto;
+    border-top: 1px solid #c5c5c5;
+    overflow: hidden;
+}
+
+.footer p {
+    text-align: center;
+    line-height: 50px;
+}
+
+.footer p span {
+    color: #DE3163;
+}
