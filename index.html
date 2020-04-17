@@ -14,9 +14,10 @@
         <div class="logo">
             <img src="image/logo.png">
         </div>
-        <div class="menu">
-            <div class="menu_title"><a href="">内容分类</a></div>
-            <ul>
+        <div class="menu" onmouseleave="show_menu1()">
+            <!--设置#表示当前页面但不刷新页面-->
+            <div class="menu_title"><a href="#" onclick="show_menu()">内容分类</a></div>
+            <ul id="menu1">
                 <li>现实主义</li>
                 <li>抽象主义</li>
             </ul>

@@ -9,6 +9,8 @@
 
 .header .menu ul {
     display: none;
+    /*列表前的点号*/
+    list-style: none;
 }
 
 .header .logo {
@@ -21,4 +23,26 @@
     position: relative;
     margin-top: 12px;
     margin-left: 16px;
+}
+
+.header .menu:hover ul {
+    /*弹出下拉菜单*/
+    display: block;
+}
+
+.header .menu ul li {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.header .menu .menu_title {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    width: 80px;
+    text-align: center;
+}
+
+a {
+    /*超级链接下划线*/
+    text-decoration: none;
 }
